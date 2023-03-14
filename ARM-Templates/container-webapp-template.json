@@ -3,11 +3,11 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "webAppName": {
-            "defaultValue": "pav-devops-dev",
+            "defaultValue": "pavdevopsdev",
             "type": "String"
         },
         "hostingPlanName": {
-            "defaultValue": "pav-devops-asp",
+            "defaultValue": "pavdevopsasp",
             "type": "String"
         },
         "appInsightsLocation": {
@@ -15,7 +15,7 @@
             "type": "String"
         },
         "appInsightsName": {
-            "defaultValue": "pav-devops-ai",
+            "defaultValue": "pavdevopsai",
             "type": "String"
         },        
         "sku": {
@@ -23,11 +23,11 @@
             "type": "String"
         },
         "registryName": {
-            "defaultValue": "pav-devopsreg",
+            "defaultValue": "pavdevopsreg",
             "type": "String"
         },
         "imageName": {
-            "defaultValue": "pav-devopsimage",
+            "defaultValue": "pavdevopsimage",
             "type":"String"
         },
         "registryLocation": {
