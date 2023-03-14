@@ -20,7 +20,7 @@ jobs:
         uses: azure/arm-deploy@v1
         with:
           subscriptionId: ${{ secrets.SERVICE_PRINCIPAL }}
-          resourceGroupName: ${{ variables.RESOURCE_GROUP_NAME }}
+          resourceGroupName: wth-team14-rg
           template: ./azuredeploy.json
           parameters: storageAccountType=Standard_LRS
 
