@@ -21,7 +21,7 @@ jobs:
         with:
           #subscriptionId: ${{ secrets.SERVICE_PRINCIPAL }}
           resourceGroupName: ${{ vars.RESOURCE_GROUP_NAME }}
-          template: ./ARM-templates/container-webapp-template.json
+          template: ./ARM-Templates/container-webapp-template.json
           parameters: storageAccountType=Standard_LRS
 
         # output containerName variable from template
