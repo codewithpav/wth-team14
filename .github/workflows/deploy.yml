@@ -22,7 +22,7 @@ jobs:
           #subscriptionId: ${{ secrets.SERVICE_PRINCIPAL }}
           resourceGroupName: ${{ vars.RESOURCE_GROUP_NAME }}
           template: ./ARM-Templates/container-webapp-template.json
-          parameters: storageAccountType=Standard_LRS
+          #parameters: storageAccountType=Standard_LRS
 
         # output containerName variable from template
       - run: echo ${{ steps.deploy.outputs.containerName }}
